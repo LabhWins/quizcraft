@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: quizcraft-backend
+    env: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    plan: free
+    envVars:
+      - key: NEON_DB_URL
+        sync: false
+      - key: NEON_DB_USERNAME
+        sync: false
+      - key: NEON_DB_PASSWORD
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: GEMINI_API_KEY
+        sync: false

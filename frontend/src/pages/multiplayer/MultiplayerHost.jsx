@@ -61,7 +61,7 @@ function MultiplayerHost() {
   };
 
   const handleCopy = async () => {
-    const ok = await copyToClipboard(`${window.location.origin}/multiplayer/join/${room.roomCode}`);
+    const ok = await copyToClipboard(`${import.meta.env.VITE_APP_URL}/multiplayer/join/${room.roomCode}`);
     if (ok) {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);

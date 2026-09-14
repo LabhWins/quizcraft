@@ -18,7 +18,7 @@ function ResultPage() {
   const handleCreateChallenge = async () => {
     try {
       const res = await createChallenge(result.quizId, result.attemptId);
-      const link = `${window.location.origin}/challenge/${res.data.token}`;
+      const link = `${import.meta.env.VITE_APP_URL}/challenge/${res.data.token}`;
       setChallengeLink(link);
     } catch (err) {
       console.error(err);

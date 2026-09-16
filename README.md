@@ -22,7 +22,7 @@ history, challenge mode, and real-time multiplayer gameplay.
 
 ------------------------------------------------------------------------
 
-## ✨ Features
+## Features
 
 -   User registration and login
 -   JWT-based authentication
@@ -52,7 +52,7 @@ history, challenge mode, and real-time multiplayer gameplay.
 
 ------------------------------------------------------------------------
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 
@@ -90,7 +90,7 @@ history, challenge mode, and real-time multiplayer gameplay.
 
 ------------------------------------------------------------------------
 
-## 🏗️ Architecture
+## Architecture
 
 ``` text
                          USER
@@ -131,7 +131,7 @@ history, challenge mode, and real-time multiplayer gameplay.
 
 ------------------------------------------------------------------------
 
-## 🎮 Application Flow
+## Application Flow
 
 ### Standard Quiz
 
@@ -202,7 +202,7 @@ Game Over
 
 ------------------------------------------------------------------------
 
-## 🔐 Authentication
+## Authentication
 
 QuizCraft uses JWT-based authentication.
 
@@ -224,7 +224,7 @@ authenticated API requests.
 
 ------------------------------------------------------------------------
 
-## 🤖 AI-Generated Quizzes
+## AI-Generated Quizzes
 
 QuizCraft integrates the Gemini API through the Spring Boot backend.
 
@@ -236,7 +236,7 @@ directly expose the Gemini API key.
 
 ------------------------------------------------------------------------
 
-## 🌐 Real-Time Multiplayer
+## Real-Time Multiplayer
 
 Multiplayer functionality uses:
 
@@ -266,7 +266,7 @@ Real-time events include:
 
 ------------------------------------------------------------------------
 
-## 📡 API Overview
+## API Overview
 
 ### Authentication
 
@@ -314,7 +314,7 @@ GET  /challenge/{token}/result
 
 ------------------------------------------------------------------------
 
-## 📁 Project Structure
+## Project Structure
 
 ``` text
 quizcraft/
@@ -332,7 +332,7 @@ quizcraft/
 
 ------------------------------------------------------------------------
 
-## ⚙️ Environment Variables
+## Environment Variables
 
 ### Frontend
 
@@ -367,7 +367,7 @@ FRONTEND_URL=
 
 ------------------------------------------------------------------------
 
-## 💻 Local Development
+## Local Development
 
 ### Prerequisites
 
@@ -418,7 +418,7 @@ http://localhost:5173
 
 ------------------------------------------------------------------------
 
-## 🚀 Deployment
+## Deployment
 
 ### Frontend
 
@@ -453,7 +453,7 @@ Neon PostgreSQL
 
 ------------------------------------------------------------------------
 
-## 🔗 Production Links
+## Production Links
 
   Resource            Link
   ------------------- ---------------------------------------------
@@ -463,7 +463,7 @@ Neon PostgreSQL
 
 ------------------------------------------------------------------------
 
-## 🔒 Security Notes
+## Security Notes
 
 -   JWT is used for authenticated requests.
 -   Production secrets are stored using environment variables.
@@ -475,7 +475,7 @@ Neon PostgreSQL
 
 ------------------------------------------------------------------------
 
-## 📌 Current Status
+## Current Status
 
 **QuizCraft is deployed and working in production.**
 
@@ -495,7 +495,7 @@ Completed functionality includes:
 
 ------------------------------------------------------------------------
 
-## 🔮 Future Improvements
+## Future Improvements
 
 Potential future improvements include:
 
@@ -509,7 +509,7 @@ Potential future improvements include:
 
 ------------------------------------------------------------------------
 
-## 👨‍💻 Author
+## Author
 
 **Labhesh Kadu**
 
@@ -519,6 +519,6 @@ GitHub: https://github.com/LabhWins/quizcraft
 
 ------------------------------------------------------------------------
 
-## ⭐ If you found QuizCraft interesting
+## If you found QuizCraft interesting
 
 Feel free to explore the live application and the source code.

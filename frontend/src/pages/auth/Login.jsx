@@ -4,9 +4,9 @@ import { useAuth } from '../../context/AuthContext';
 import { LogIn, ArrowLeft, Clock } from 'lucide-react';
 
 const PREMADE_ACCOUNTS = [
-  { role: 'Admin', username: 'admin1', password: 'test 123' },
-  { role: 'User', username: 'user1', password: 'test 123' },
-  { role: 'User', username: 'newuser2', password: 'test 123' },
+  { role: 'Admin', username: 'admin1', password: 'test123' },
+  { role: 'User', username: 'user1', password: 'test123' },
+  { role: 'User', username: 'newuser2', password: 'test123' },
 ];
 
 function Login() {

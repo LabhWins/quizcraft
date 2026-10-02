@@ -110,7 +110,7 @@ function Login() {
             <div className="flex items-center justify-between pb-3 mb-3 border-b border-zinc-800/80">
               <span className="text-[11px] font-semibold uppercase tracking-wider text-zinc-400">Demo Logins</span>
               <span className="text-[10px] font-mono text-amber-400/90 bg-amber-400/10 px-1.5 py-0.5 rounded border border-amber-400/20">
-                test 123
+                test123
               </span>
             </div>
 
